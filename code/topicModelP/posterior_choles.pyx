@@ -23,7 +23,7 @@ from scipy.stats import multivariate_normal as mvn
 import pdb
 import math
 #import cholesky
-cimport choldate
+from topicModelP cimport choldate
 from libc.math cimport lgamma, pow, pi, log,sqrt
 from sklearn.covariance import LedoitWolf
 
