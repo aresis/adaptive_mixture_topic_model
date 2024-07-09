@@ -28,7 +28,7 @@ from scipy.stats import multivariate_normal
 import scipy as sp
 
 
-from posterior_choles cimport Posterior
+from topicModelP.posterior_choles cimport Posterior
 from report_utils import print_top_words, calc_hgs, topic_coherence, topic_coherence2
 import generic_utils
 
